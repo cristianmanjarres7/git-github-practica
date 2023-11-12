@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>
-        Aprendiendo Git
+  </head>
+  <body>
+    <h1>Aprendiendo Git</h1>
+    <h2 style="color: blue">Aprendiendo Git</h2>
+    <p>Probando las funcionalidad de Git</p>
+    <div class="container">
+      <h1 style="color: aqua" class="text-center">
+      Aprendiendo Git
     </h1>
-    <h2 style="color:blue">
-        Aprendiendo Git
-    </h2>
-
-</body>
+      <!-- columna 1 - Formulario para agregar tareas-->
+      <div class="row d-flex flex-row mt-5 g-3 justify-content-evenly">
+        <div class="col-md-4">
+          <form action="#">
+            <div class="mb-3">
+              <label for="exampleFormControlInput" class="form-label"
+                >Title</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput"
+                placeholder="Hacer las compras"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Description</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Guardar</button>
+            <button class="btn btn-secundary" type="button">Limpiar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
